@@ -1,9 +1,10 @@
 import React from 'react';
-import TimeLine from './TimeLine'
+import TimeLine from './TimeLine';
 import { Button } from '@material-ui/core';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 import Fade from 'react-reveal/Fade';
 import Flash from 'react-reveal/Flash';
+import DrawerP from './DrawerP';
 
 
 const LeftMain = () => {
@@ -14,6 +15,7 @@ const LeftMain = () => {
 
 return(
     <div className="LeftMain">
+        <DrawerP/>
         <div className="TopLeft">
             <Fade duration='2000'>
                 <h2 style={{fontSize:'3rem'}}>A CREATIVE ADVENTURE TOWARDS MARKETING</h2>
