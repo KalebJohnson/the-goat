@@ -21,7 +21,7 @@ return(
                 <h2 style={{fontSize:'3rem'}}>A CREATIVE ADVENTURE TOWARDS MARKETING</h2>
                 <p style={{ border:"1px solid white", padding:'1rem'}}>Simple, Lovely, and everything in between.</p>
                     <Flash duration="3000">
-                    <Button style={{color:'white'}} onClick={() => { scrollWin(0, 1000) }}><ArrowDownwardIcon style={{fontSize:'5rem', margin:'1rem'}}/></Button>
+                    <Button style={{color:'white'}} onClick={() => { scrollWin(0, 1050) }}><ArrowDownwardIcon style={{fontSize:'5rem', margin:'1rem'}}/></Button>
                     </Flash>
             </Fade>
         </div>
