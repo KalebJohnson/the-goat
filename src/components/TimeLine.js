@@ -7,20 +7,16 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
-import LaptopMacIcon from '@material-ui/icons/LaptopMac';
-import HotelIcon from '@material-ui/icons/Hotel';
-import RepeatIcon from '@material-ui/icons/Repeat';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    padding: '6px 16px',
+    padding: '6px 6px',
     backgroundColor: 'rgb(32, 9, 37)',
     color: 'white',
-    border: '1px solid black',
+    borderBottom: '3px solid black',
     width:'100%',
     marginBottom:'8rem'
   },
@@ -48,10 +44,10 @@ export default function TimeLine() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Eat
+            <Typography variant="h7" component="h1">
+              FRONT END
             </Typography>
-            <Typography>Because you need strength</Typography>
+            <Typography>Create landing page while utilizing LESS/CSS, HTML5, and Javascript</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -66,10 +62,10 @@ export default function TimeLine() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Code
+            <Typography variant="h7" component="h1">
+              REACT FRONTEND DEV
             </Typography>
-            <Typography>Because it&apos;s awesome!</Typography>
+            <Typography>Create dynamic react front end utilizing animations, routing, and form data handling practices</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -82,10 +78,10 @@ export default function TimeLine() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Sleep
+            <Typography variant="h7" component="h1">
+              REACT FRONTEND DEV
             </Typography>
-            <Typography>Because you need rest</Typography>
+            <Typography>Create react frontend functionality utilizing 3rd party state management, full CRUD operations, including user authentication. </Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -98,10 +94,10 @@ export default function TimeLine() {
         </TimelineSeparator>
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
-            <Typography variant="h6" component="h1">
-              Repeat
+            <Typography variant="h7" component="h1">
+              NODE.JS BACKEND DEV
             </Typography>
-            <Typography>Because this is the life you love!</Typography>
+            <Typography>To be continued To be continued To be continued To be continued To be continued To be continued To be continued To be continued To be continued</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>

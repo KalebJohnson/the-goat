@@ -17,6 +17,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const drawerWidth = 240;
 
@@ -102,7 +103,13 @@ const DrawerP = () => {
           [classes.appBarShift]: open,
         })}
       >
-        <Toolbar>
+        <Toolbar className="Toolbar">
+    
+          <div className="name">
+            <h1>Kaleb Johnson</h1>
+            <GitHubIcon style={{fontSize:'3rem'}}/>
+          </div>
+
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -131,7 +138,7 @@ const DrawerP = () => {
         </div>
         <Divider />
         <List>
-          {['Products', 'Social Media', 'Contact Us', 'About us'].map((text, index) => (
+          {['Specific Skills', 'Resume', 'Contact Me'].map((text, index) => (
             <ListItem button key={text}>
               <ListItemIcon style={{color:"white"}}>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
               <ListItemText primary={text} />
