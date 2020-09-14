@@ -6,7 +6,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
-import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -29,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     transition: theme.transitions.create(['margin', 'width'], {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
-    }),
+    }), 
   },
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -41,6 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     marginRight: theme.spacing(2),
+    color: "red"
   },
   hide: {
     display: 'none',
@@ -50,12 +50,13 @@ const useStyles = makeStyles((theme) => ({
     flexShrink: 0,
   },
   drawerPaper: {
-    backgroundColor:'rgb(32, 9, 37)',  
-    color:'white',
+    backgroundColor:'rgb(0)',  
+    color:'black',
     width: drawerWidth,
     borderRight:'2px solid black',
   },
   drawerHeader: {
+    backgroundColor: "red",
     display: 'flex',
     alignItems: 'center',
     padding: theme.spacing(0, 1),
@@ -97,7 +98,7 @@ const DrawerP = () => {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar style={{backgroundColor:'rgb(32, 9, 37)'}}
+      <AppBar style={{backgroundColor:'white'}}
         position="fixed"
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
@@ -106,8 +107,8 @@ const DrawerP = () => {
         <Toolbar className="Toolbar">
     
           <div className="name">
-            <h1>Kaleb Johnson</h1>
-            <GitHubIcon style={{fontSize:'3rem'}}/>
+            <h1>Welcome : Kaleb</h1>
+            <img src="https://stubwire-public.storage.googleapis.com/website/stubwire_v3/images/logo_large.png" style={{ height:'6rem'}}></img>
           </div>
 
           <IconButton
@@ -140,7 +141,7 @@ const DrawerP = () => {
         <List>
           {['Specific Skills', 'Resume', 'Contact Me'].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemIcon style={{color:"white"}}>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+              <ListItemIcon style={{color:"black"}}>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}
