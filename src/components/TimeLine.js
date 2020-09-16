@@ -47,7 +47,7 @@ export default function TimeLine() {
             <Typography variant="h7" component="h1">
               FRONT END
             </Typography>
-            <Typography>Create landing page while utilizing LESS/CSS, HTML5, and Javascript</Typography>
+            <Typography>Create landing page while utilizing LESS/CSS, HTML5, and even Javascript</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -81,7 +81,7 @@ export default function TimeLine() {
             <Typography variant="h7" component="h1">
               REACT FRONTEND DEV
             </Typography>
-            <Typography>Create react frontend functionality utilizing 3rd party state management, full CRUD operations, including user authentication. </Typography>
+            <Typography>Create react frontend functionality utilizing 3rd party state management, full CRUD operations, including user authentication handling client-side. </Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
@@ -97,7 +97,7 @@ export default function TimeLine() {
             <Typography variant="h7" component="h1">
               NODE.JS BACKEND DEV
             </Typography>
-            <Typography>To be continued To be continued To be continued To be continued To be continued To be continued To be continued To be continued To be continued</Typography>
+            <Typography>Build functional Node.js backend utilizing mySQL databases while maintaining user information security. (hashing via Bcrypt, using sessions/JWT secret,sig)</Typography>
           </Paper>
         </TimelineContent>
       </TimelineItem>
